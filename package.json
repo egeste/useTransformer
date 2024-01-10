@@ -1,0 +1,23 @@
+{
+  "name": "usetransformer",
+  "version": "0.0.0",
+  "description": "React hook for Xenova/transformer.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Steve Regester <npm@egeste.net>",
+  "license": "MIT",
+  "peerDependencies": {
+    "@types/react": ">=16.8.x",
+    "react": ">=16.8.x"
+  },
+  "dependencies": {
+    "@types/uuid": "^9.0.1",
+    "@xenova/transformers": "^2.14.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
