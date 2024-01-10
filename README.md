@@ -9,7 +9,7 @@ import useTransformer from 'usetransformer'
 // Create your transformer worker(s)
 const transcriber = useTransformer({
   task: 'automatic-speech-recognition',
-  model: `distil-whisper/distil-small`,
+  model: `distil-whisper/distil-small.en`,
   workerCount: 2
 } as TransformerInitOperationArgs)
 
